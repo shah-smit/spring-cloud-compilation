@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4002c9d8-33ad-47a3-9e93-34fe7570e2bf" name="Default Changelist" comment="" />
+    <list default="true" id="4002c9d8-33ad-47a3-9e93-34fe7570e2bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-movies/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-movies/spring-application-movies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-movies/src/main/java/com/spring/compilation/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-movies/src/main/java/com/spring/compilation/MovieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-movies/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-application-tvshow/src/main/java/com/spring/compilation/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-application-tvshow/src/main/java/com/spring/compilation/TvShowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-application-tvshow/src/main/java/com/spring/compilation/TvShowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-application-tvshow/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-application-tvshow/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-application-tvshow/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-application-tvshow/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-application-tvshow/target/classes/com/spring/compilation/TvShowApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-application-tvshow/target/classes/com/spring/compilation/TvShowApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/spring/compilation/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/spring/compilation/EurekaServerApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VI9sUsyII0WXbiwhYBjuufVOAg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +45,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-application-dashboard/src/main/java/com/spring/compilation" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TvShowApplication">
+  <component name="RunManager" selected="Application.DashboardApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -46,9 +71,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DashboardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.compilation.DashboardApplication" />
+      <module name="spring-application-dashboard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.compilation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.compilation.EurekaServerApplication" />
       <module name="spring-cloud-eureka" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.compilation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.compilation.MovieApplication" />
+      <module name="spring-application-movies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -107,9 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DashboardApplication" />
         <item itemvalue="Application.TvShowApplication" />
-        <item itemvalue="Application.ConfigServiceApplication" />
+        <item itemvalue="Application.MovieApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.ConfigServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -139,25 +194,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1576936823673">
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1576952421917">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1576936823673" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1576936823672">
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1576952421917" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1576952421914">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1576936823672" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1576936823672">
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1576952421914" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1576952421912">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1576936823672" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1576936823673">
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1576952421912" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1576952421915">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1576936823673" />
-    <state x="168" y="243" key="new project wizard" timestamp="1576935233904">
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1576952421915" />
+    <state x="503" y="220" key="chooseDestDirectoryDialog" timestamp="1576949291611">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="168" y="243" key="new project wizard/0.23.1440.825@0.23.1440.825" timestamp="1576935233904" />
+    <state x="503" y="220" key="chooseDestDirectoryDialog/0.23.1440.825@0.23.1440.825" timestamp="1576949291611" />
+    <state x="168" y="243" key="new project wizard" timestamp="1576948368184">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="168" y="243" key="new project wizard/0.23.1440.825@0.23.1440.825" timestamp="1576948368184" />
   </component>
 </project>

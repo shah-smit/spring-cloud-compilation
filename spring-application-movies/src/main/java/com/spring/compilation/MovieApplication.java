@@ -11,9 +11,9 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class TvShowApplication {
+public class MovieApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TvShowApplication.class, args);
+        SpringApplication.run(MovieApplication.class, args);
     }
 
     @Bean

@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-eureka" />
-        <module name="spring-application-tvshow" />
+        <module name="spring-application-movies" />
         <module name="spring-cloud-config" />
+        <module name="spring-application-tvshow" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-application-dashboard" target="1.8" />
+      <module name="test-to-be-deleted" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-application-movies" options="-parameters" />
       <module name="spring-application-tvshow" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
     </option>
